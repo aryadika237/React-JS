@@ -2,7 +2,8 @@
 import './App.css';
 
 function App() {
-  return <h1>Hello World</h1>}
+    // id app function - harus sama dgn export default
+  return <h1>Arya</h1>}
 
 
 export default App;
