@@ -3,16 +3,17 @@ import React from 'react';
 
 export default class Operan extends React.Component {
 
-    gantiMakanan = (makanan_baru) => {
+    gantimobil = (mobil_baru) => {
         this.setState({
-            makanan: makanan_baru
+            mobil: mobil_baru
         })
     }
+    
      render() {
          return(
          <div>
-             <h2>Operan State yang menjadi Props : {this.props.makanan}</h2>
-             <button onClick={() => this.gantiMakanan("Soto")}>Ganti Makanan</button>
+             <h2>Operan State yang menjadi Props : {this.props.mobil}</h2>
+             <button onClick={() => this.gantimobil("Soto")}>Ganti Mobil</button>
          </div>
          )
      }

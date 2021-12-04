@@ -6,22 +6,29 @@ import Operan from './Operan';
      constructor(props) {
          super (props);
          this.state = {
-             makanan : 'Bakso'
+             mobil : 'BMW',
+             mobil2 : 'Ferari'
          }
         }
-
-        gantiMakanan = (makanan_baru) => {
+        gantimobil2 = (mobil_baru2) => {
             this.setState({
-                makanan: makanan_baru
+                mobil2: mobil_baru2
+            })
+        }
+
+        gantimobil = (mobil_baru) => {
+            this.setState({
+                mobil: mobil_baru
             })
         }
         // Link makanan baru adalah link yang dibuat dengan cara manual
         render() {
             return (
                 <div>
-                    <h2>{this.state.makanan}</h2>
-                    <button onClick={() => this.gantiMakanan("Soto")}>Ganti Makanan</button>
-                    <Operan makanan = {this.state.makanan}/>
+                    <h2>{this.state.mobil}</h2>
+                    
+                    <button onClick={() => this.gantimobil("Galardo")}>Ganti Mobil</button>
+                    <Operan mobil = {this.state.mobil}/>
                 </div>
             )
         }

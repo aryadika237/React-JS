@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import App from './App';
-import Variabel from './Variabel';
-import StateProps from './StateProps';
+import Crud from './Crud';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import './App.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <Variabel />
-    <StateProps />
+    <Crud />
   </React.StrictMode>,
   document.getElementById('root')
 );

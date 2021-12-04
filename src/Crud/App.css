@@ -1,0 +1,21 @@
+.col{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+.navbar{
+    color: lightblue;
+}
+.ab{
+    color: whitesmoke;
+}
+.nav{
+    
+    background: -webkit-linear-gradient(bottom, rgb(56, 56, 238), rgb(49, 49, 238));
+       background-repeat: no-repeat;
+}
+.container{
+    background: -webkit-linear-gradient(bottom, blue, white);
+       background-repeat: no-repeat;
+}
+
+
